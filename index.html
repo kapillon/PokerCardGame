@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./deck.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <div id="table" class="forCards">
+            <button id="butt" onclick="start()">DEAL</button>
+            <div id="dealerHand">
+                <div class="cardBox"><img id="turn1" src="./Cards/Cards/CardsCover.png"></div>
+                <div class="cardBox"><img id="turn2" src="./Cards/Cards/CardsCover.png"></div>
+                <div class="cardBox"><img id="turn3" src="./Cards/Cards/CardsCover.png"></div>
+                <div class="cardBox"><img id="flop" src="./Cards/Cards/CardsCover.png"></div>
+                <div class="cardBox"><img id="river" src="./Cards/Cards/CardsCover.png"></div>
+            </div>
+
+            <div class="p1Hand">
+                <div class="cardBox"><img id="p1Card1" src="Cards/Cards/H10.png" alt="card"></div>
+                <div class="cardBox"><img id="p1Card2" src="Cards/Cards/D10.png" alt="card"></div>
+            </div>
+            <div class="p2Hand">
+                <div class="cardBox"><img id="p2Card1" src="./C8.png" alt="card"></div>
+                <div class="cardBox"><img id="p2Card2" src="./C8.png" alt="card"></div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div id="dashboard">
+            <div id="console1">
+                <input type="radio" class="radio"></input>
+                <h3><img src="images/player1.jpg" alt="" style="width: 100px; height: 100px; border-radius: 50px;"></h3>
+                <p>Player 1</p>
+                <div id="player1Amount">1000</div>
+            </div>
+            <div>
+                <button class="movesBtn">Fold</button>
+                <button class="movesBtn">Call</button>
+                <button class="movesBtn" id="raise" onclick="raiseAmount()">Raise</button>
+            </div>
+            <div id="console2">
+                <input type="radio" class="radio"></input>
+                <h3><img src="images/player2.jpg" alt="" style="width: 100px; height: 100px; border-radius: 50px;"></h3>
+                <p>Player 2</p>
+                <div id="player2Amount">1000</div>
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+body{
+    background-image: url(./poke-overlay.png);
+}
+
+
+#table{
+    /* border: 10px, black; */
+    opacity: 0.9;
+    border-style: solid;
+    border-width: 10px;
+    border-color: brown;
+    background-color:#11760d;
+    height: 300px;
+    width: 700px;
+    border-radius: 200px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* align-self: auto; */
+}
+#dealerHand{
+    /* margin: auto; */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    /* content-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 20%;
+    /* padding: 20px;
+    ali */
+}
+
+.cardBox{
+    /* border-style: solid; */
+    /* border-width: 3px; */
+    /* border-color: black; */
+    /* padding: auto; */
+    /* padding: ; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+img{
+    height: 58px;
+    width: 40px;
+
+}
+
+.p1Hand{
+    display: inline-flex;
+    padding-left: 50px;
+    /* flex-direction: column; */
+}
+
+.p2Hand{
+    display: inline-flex;
+    padding-left: 400px;
+}
+
+#dashboard{
+    border-style: solid;
+    border-color: teal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#console1{
+    border-style: solid;
+    border-color: brown;
+}
+
+#console2{
+    border-style: solid;
+    border-color: brown;
+}
